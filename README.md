@@ -1,6 +1,4 @@
 # Tech-Challenge-2
-Repositório do projeto tech challenge 2 da FIAP
----
 
 1. Contexto do problema
 
@@ -143,7 +141,9 @@ Nulo não é tratado como sinônimo de erro — cada padrão de ausência foi in
 
 Validações de faixa aplicadas a todos os percentuais (`taxa_alfabetizacao`, `meta_2024`...`meta_2030`, `percentual_participacao` entre 0 e 100) e ao campo categórico `nivel_alfabetizacao` (entre 0 e 5, conforme os cinco níveis de desempenho definidos pelo INEP). A decisão de não unir tabelas por `rede` (seção 4.3) também é, em si, uma medida de consistência: evita comparar categorias que não se sabe se são equivalentes.
 
----
+5.4 Padronização dos ID
+
+Tudo o que é id aluno ou id municipio foram transformados em string e adicionados zeros à esquerda por questão de padronização. Como são valores de identificação, variáveis qualitativas, decidi padronizar assim.
 
 6. Tecnologias utilizadas
 
